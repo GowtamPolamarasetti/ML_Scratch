@@ -42,7 +42,6 @@ def load_and_prepare_data():
     return X_train, X_test, y_train, y_test
 
 def build_model():
-    """Builds our Sequential model."""
     print("Building model...")
     model = Sequential()
 

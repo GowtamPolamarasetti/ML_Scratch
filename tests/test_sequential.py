@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 from numpy.testing import assert_allclose
 
-from pyml.neural_network import Sequential, Dense, ActivationLayer, Tanh # <-- FIX: Was 'Activation'
+from pyml.neural_network import Sequential, Dense, ActivationLayer, Tanh 
 from pyml.neural_network._losses import SoftmaxCrossEntropyLoss, MeanSquaredError
 from pyml.neural_network._optimizers import Adam, SGD
 from pyml.metrics import accuracy_score

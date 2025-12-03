@@ -100,5 +100,4 @@ pytest
 ```
 
 ## Authors
-
-*   **Gowtam Polamarasetti**
+**Gowtam Polamarasetti**
